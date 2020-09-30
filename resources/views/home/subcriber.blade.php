@@ -2,7 +2,7 @@
             <div class="row">
                 <div class="col-lg-6" style="padding-top: 40px;">
                     <h3>Newsletter...</h3>
-                    <p>Masukan email kamu agar tidak ketinggalan update dari Made Code...</p><br>
+                    <p>Masukan email kamu agar tidak ketinggalan update dari Made Coding...</p><br>
                     <form>
                         <div class="form-group">
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email...">                       

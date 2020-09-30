@@ -67,6 +67,12 @@
     padding: 27px;
 }
 
+.img-modul-terbaru {
+    border-radius: 7px;
+    width: 150px;
+    height: 200;
+}
+
 
 
 /* @media (max-width: 767px) { */

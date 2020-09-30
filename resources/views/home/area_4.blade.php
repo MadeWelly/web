@@ -1,8 +1,8 @@
 <div class="container">
   <div class="row justify-content-md-center">
       <div class="col-lg-7 text-center">
-      <h2>Apa saja yang bisa kamu pelajari ?</h2><br>
-      <p class="">14 kelas pembelajaran yaitu UI & UX, HTML & CSS, Bootstrap, jQuery Plugins, PHP & MySQL, Photoshop, Javascript, jQuery, Object-oriented programming (OOP), AJAX, API JSON, PHP Framework Codeigniter Company Profile, Codeigniter Rest API dan PHP Framework Codeigniter Ecommerce *</p>
+      <h2>Apa saja yang bisa kamu pelajari disini ?</h2><br>
+      <p class="">HTML & CSS, Bootstrap, PHP & MySQL, Javascript, jQuery, Object-oriented programming (OOP), API JSON, PHP Framework Codeigniter, dan PHP Framework Laravel </p>
   </div>
   </div>
 </div>
