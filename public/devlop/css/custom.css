@@ -59,6 +59,14 @@
     color: white;
 }
 
+.img-art {
+    width: 100%;
+}
+
+.text-art {
+    padding: 27px;
+}
+
 
 
 /* @media (max-width: 767px) { */
@@ -96,5 +104,7 @@
     .btn-login {
         display: none;
     }
+
+
 
 }

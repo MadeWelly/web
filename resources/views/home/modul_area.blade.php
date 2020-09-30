@@ -18,43 +18,38 @@
             <div class="row justify-content-center">  
                 <div class="col-lg-4 col-md-6">
                     <div class="single_reson">
-                        <div class="thum">
-                            <div class="thum_1">
-                                <img src="{{asset("public/devlop/img/laravel_.png")}}" alt="">
-                            </div>
-                        </div>
                         <div class="help_content">
-                            <h4>Laravel 6</h4>
-                            <p>Laravel 6 (LTS) melanjutkan peningkatan yang dibuat di Laravel 5.8 dengan versi semantik, kompatibilitas ..</p>
+                            <div>
+                                <img src="{{asset("public/devlop/img/_laravel.png")}}" alt="" width= "100%" height= "200">
+                            </div>
+                            <div class="text-art">
+                            <p>Laravel adalah kerangka aplikasi web dengan sintaks yang ekspresif </p>
                             <a href="#" class="read_more">Read More</a>
+                        </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single_reson">
-                        <div class="thum">
-                            <div class="thum_1">
-                                <img src="{{asset("public/devlop/img/react-js.jpg")}}" alt="">
-                            </div>
-                        </div>
                         <div class="help_content">
-                            <h4>React Js</h4>
-                            <p>React yaitu pustaka JavaScript open-source, digunakan untuk menangani lapisan tampilan aplikasi web dan ..</p>
-                            <a href="#" class="read_more">Read More</a>
+                            <div class="">
+                                <img class="img-art" src="{{asset("public/devlop/img/js.jpg")}}" alt="" width="100%" height= "200">
+                            </div>
+                            <div class="text-art">
+                                <p>JavaScript open-source, digunakan untuk menangani</p>
+                                <a href="#" class="read_more">Read More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single_reson">
-                        <div class="thum">
-                            <div class="thum_1">
-                                <img src="{{asset("public/devlop/img/codeigniter.jpg")}}" alt="">
-                            </div>
-                        </div>
                         <div class="help_content">
-                            <h4>Codeigniter 4</h4>
-                            <p>CodeIgniter 4 adalah versi kerangka kerja yang akan datang, dimaksudkan untuk digunakan dengan PHP 7.2.</p>
+                            <img src="{{asset("public/devlop/img/php.png")}}" alt="" width= "100%" height= "200">
+                            <div class="text-art">
+                            <p>PHP adalah bahasa skrip yang populer untuk pengembangan web</p>
                             <a href="#" class="read_more">Read More</a>
+                        </div>
                         </div>
                     </div>
                 </div>
