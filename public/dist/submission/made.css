@@ -1,0 +1,423 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+  .content {
+    padding: 13px;
+    width: 98%;
+    margin-bottom: 35px;
+  }
+
+  .content article {
+    padding: 18px;
+  }
+
+  nav {
+    display: ;
+  }
+
+  nav ul li {
+    padding: 20px 16px;
+  }
+
+  main {
+    width: 94%;
+    margin: 50px auto;
+  }
+
+  aside {
+    margin-left: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  aside .search {
+    padding-top: 27px;
+  }
+
+  form fieldset input {
+    height: 30px;
+    margin: 7px 0;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+  .content {
+    margin-right: 10px;
+    width: 68%;
+  }
+
+
+
+
+  nav {
+    display: flex;
+  }
+
+  .navbar ul li {
+    padding: 20px 40px;
+  }
+
+  main {
+    width: 80%;
+    margin: 70px auto;
+  }
+
+  aside {
+    margin-left: 10px;
+    width: 22%;
+  }
+
+  form fieldset input {
+    height: 30px;
+    margin: 10px 0;
+  }
+}
+
+/* -------------------------------------------------------HEADER */
+header {
+  background: linear-gradient(to right, #28a5f5, #1e87f0);
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  color: #182C61;
+}
+
+/* -------------------------------------------------------NAVBAR */
+nav {
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+nav .user {
+  display: flex;
+  flex-grow: 8;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+}
+
+.user img {
+  border-radius: 50%;
+}
+
+.user .hello,
+.user img {
+  margin: auto 0 auto 20px;
+  text-decoration: none;
+  transition: color .3s;
+  color: #666;
+  cursor: pointer;
+}
+
+.user .hello:hover {
+  color: #34495e;
+}
+
+.js-is-hidden {
+  display: none;
+}
+
+
+.user .my-drop-icon {
+  padding: 15px;
+  color: #666;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  position: absolute;
+  float: none;
+  top: 90px;
+  left: 90px;
+  font-size: 1rem;
+  border-radius: 5px;
+  /* display: none; */
+  z-index: 1;
+}
+
+.t-hi {
+  visibility: hidden;
+
+}
+
+
+.my-drop-icon ul {
+  display: block;
+  list-style: none;
+
+}
+
+.my-drop-icon ul li {
+  padding: 9px;
+}
+
+.my-drop-icon ul li a {
+  border-bottom: 2px solid #50c1e9;
+  padding: 10px 0;
+  display: block;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #aaa;
+  /* background-color: #aaaaaa21; */
+}
+
+
+
+nav .navbar ul {
+  list-style: none;
+  display: flex;
+  flex-grow: 4;
+  justify-content: flex-end;
+  font-weight: 0;
+}
+
+.navbar ul li {
+  display: block;
+  position: relative;
+}
+
+
+.navbar ul li a {
+  padding: 15px 0;
+  display: block;
+  color: #666;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color, text-shadow, font-weight .3s;
+}
+
+
+
+.navbar ul li a:hover {
+  color: #34495e;
+  text-shadow: 1px 1px #2c2d2d;
+}
+
+.active-scroll .navbar ul li a,
+.active-scroll .user .hello {
+  color: #fff;
+}
+
+.active {
+  text-shadow: 1px 1px #2c2d2d;
+  border-bottom: 3px solid #50c1e9;
+
+}
+
+/* ----------------------------------------------------COVER */
+.cover {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title h1 {
+  color: #666;
+}
+
+/* -----------------------------------------------------MAIN */
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ----------------------------------------------------CONTENT */
+.content {
+
+  color: #666;
+}
+
+.content article {
+  padding: 30px;
+  background: #fff;
+  color: #666;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border-bottom: 3px solid #50c1e9;
+  border-radius: 2%;
+}
+
+
+.content article h1 {
+  font-size: 2rem;
+}
+
+.content article small {
+  /* margin-left: 20px; */
+}
+
+.content article img {
+  padding: 20px 0;
+}
+
+.content section h1,
+.content section p {
+  padding-bottom: 10px;
+}
+
+.content section p {
+  text-align: justify;
+}
+
+.content article button {
+  margin-top: 10px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #3498db;
+  border: 0;
+  color: white;
+  transition: background-color .3s;
+
+}
+
+.content article button:hover {
+  background-color: #2971a0;
+
+}
+
+.content article form fieldset {
+  padding: 20px;
+}
+
+form fieldset input,
+textarea {
+  width: 100%;
+}
+
+form fieldset textarea {
+  margin-top: 10px;
+  width: 100%;
+}
+
+
+
+
+/* -----------------------------------------------ASIDE */
+
+aside {
+  color: #666;
+  justify-content: center;
+}
+
+aside .search {}
+
+aside h3 {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #50c1e9;
+}
+
+aside .search input {
+  margin-bottom: 30px;
+  height: 29px;
+  padding-left: 10px;
+}
+
+aside .search button {
+  color: white;
+  background-color: #3498db;
+  padding: 9.5px;
+  border: 0;
+  transition: background-color .3s;
+  /* height: 30px; */
+}
+
+aside .search button:hover {
+  background-color: #2971a0;
+}
+
+
+.satu,
+.dua {
+  /* padding: 10px; */
+  text-align: center;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+aside .satu a,
+aside .dua a {
+  margin-top: -4px;
+  display: block;
+  padding: 20px 0;
+  text-decoration: none;
+  color: #666;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: color, background-color .3s;
+}
+
+aside .satu a:hover,
+aside .dua a:hover {
+  background-color: #2c3e50;
+  color: white;
+}
+
+aside .sosial {
+  margin-top: 30px;
+  text-align: center;
+}
+
+aside .sosial img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+aside .sosial a {
+  text-decoration: none;
+}
+
+aside .sosial p {
+  margin-top: 20px;
+}
+
+.fa-instagram,
+.fa-google-plus-g,
+.fa-twitter,
+.fa-facebook-f {
+  color: #fff;
+  background-color: #aaa;
+  padding: 6px;
+  border-radius: 50%;
+  margin: 7px;
+}
+
+/* -------------------------------------------FOOTER */
+
+footer {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0;
+  justify-content: space-around;
+  background-color: #2c3e50;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: #aaa;
+}

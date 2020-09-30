@@ -1,0 +1,100 @@
+.a-c {
+    background-color: #607d8b;
+    color: white;
+    padding: 10px;
+    border-radius: .25rem;
+}
+
+.a-c:hover {
+    background-color: #6c757d;
+}
+
+.topbar {
+    /* padding: 12px; */
+    border: 1px 0 0 1px solid black;
+    border-top: 0.2px solid #e3e6f0;
+    border-left: .2px solid #e3e6f0;
+    border-right: .2px solid #e3e6f0;
+    padding: 12px;
+    /* border-bottom: 1px solid #e3e6f0; */
+    z-index: 51;
+    position: relative;
+    background: #f8f9fc;
+}
+
+.header-area-me {
+    padding-top: 0px;
+}
+
+.banner-svg2 {
+    position: absolute;
+    width: 43%;
+    height: 600px;
+    /* position: relative; */
+    right: 0;
+    top: 144px;
+    z-index: 1;
+}
+
+.banner-svg1 {
+    position: absolute;
+    z-index: 1;
+    height: 360px;
+    right: 0;
+    top: 225px;
+}
+
+.btn-login {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.header-area .main-header-area .btn-login a:hover {
+    color: black;
+}
+
+.header-area .main-header-area .btn-login a {
+    color: white;
+}
+
+
+
+/* @media (max-width: 767px) { */
+@media (max-width: 1500px) and (min-width: 1200px) {
+    .login-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* line 206, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
+    .img-newsletter {
+        display: none;
+    }
+
+    .banner-svg2 {
+        position: absolute;
+        width: 146%;
+        height: 457px;
+        /* position: relative; */
+        right: 1px;
+        top: 417px;
+        z-index: 1;
+    }
+
+    .banner-svg1 {
+        position: absolute;
+        z-index: 1;
+        height: 277px;
+        right: 0;
+        top: 451px;
+    }
+
+    .btn-login {
+        display: none;
+    }
+
+}

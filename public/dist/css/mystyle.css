@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 992px) {
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .myslide {
+    z-index: 1;
+    display: flex;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    /* background-color: #aaa; */
+    position: fixed;
+    display: none;
+  }
+
+  .left-slide {
+    /* background-color: rgb(55, 120, 255); */
+    width: 50.6668%;
+    animation: slideInUp 1.4s ease-in;
+    box-shadow: inset -12px 0 8px -8px rgba(0, 0, 0, 0.1), inset -5px 0 4px -4px rgba(0, 0, 0, 0.2), inset -32px 0 23px -24px rgba(0, 15, 40, 0.15);
+  }
+
+  .mid-slide {
+
+    margin-left: -2px;
+    width: 8.668%;
+    background-color: #232328;
+    box-shadow: inset -9px 0 6px -6px rgba(0, 0, 0, 0.15), inset -3px 0 3px -3px rgba(0, 0, 0, 0.2);
+    animation: slideInUp 1.2s ease-in;
+  }
+
+  .right-slide {
+    animation: slideInUp 0.9s ease-in;
+  }
+
+
+  .animated {
+    z-index: 1;
+    visibility: visible;
+  }
+
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6 {
+    padding: 0px;
+    margin: 0;
+  }
+
+  .dot-me {
+    height: 18%;
+    margin: 4vh 0 0 7vw;
+  }
+
+  .dot-me .uk-icon-link {
+    display: none;
+  }
+
+  .header {
+    height: 60%;
+    position: relative;
+    width: max-content;
+    margin-left: 7vw;
+  }
+
+  .header h4 {
+    color: #54a0fe;
+    font-weight: 700;
+  }
+
+  .header h1 {
+    color: lavenderblush;
+    font-size: 3.8875rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-top: 0;
+  }
+
+  .kolom3 {
+    max-width: 100%;
+    background-color: #222f3e;
+  }
+
+  .me {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    height: 70%;
+    margin-left: -2.5vw;
+    font-weight: 500;
+  }
+
+  .me a {
+    transform: rotate(-270deg);
+    color: #999;
+  }
+
+  .me a:hover {
+    color: #666;
+  }
+
+  .me ul li a {
+    color: #acacac;
+  }
+
+  .me ul li a:hover {
+    color: white;
+  }
+
+
+  .me .uk-list li {
+    /* -webkit-transform: rotate(-270deg); */
+    /* margin-top: 14vh; */
+    list-style: none;
+  }
+
+  .me ul li:nth-child(2) {
+    /* margin-top: 9vh; */
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  .footer {
+    display: none;
+  }
+}
+
+/* END */
+
+
+@media screen and (max-width: 992px) {
+
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .container-fluid {
+    max-width: 100%;
+    overflow: scroll;
+  }
+
+  .container-fluid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .uk-card-body {
+    padding: 0 0 2vh 0;
+  }
+
+  .dot-me {
+    width: 100%;
+    display: flex;
+    background: url("/dist/img/Sun-Tornado.svg") no-repeat top left;
+    z-index: 1;
+    padding: 2vh 3vh;
+    position: fixed;
+    justify-content: space-between;
+  }
+
+  .dot-me a {
+    /* flex: 1; */
+  }
+
+  .dot-me p {
+    margin: 0;
+  }
+
+  .header {
+    padding-left: 5vw;
+  }
+
+  .header h4 {
+    color: #54a0fe;
+    font-weight: 700;
+    margin-top: 13vh;
+  }
+
+  .header h1 {
+    color: lavenderblush;
+    font-size: 2.8875rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+
+  .header .icon-play {
+    display: none;
+  }
+
+  address {
+    display: none;
+  }
+
+  article {
+    padding: 4vw;
+  }
+
+  .kolom3 .me,
+  .kolom3 .menu {
+    display: none;
+  }
+
+  .kolom3 .footer {
+    width: 100%;
+    height: 100%;
+    background-color: #222f3e;
+    text-align: center;
+  }
+
+  .footer .left {}
+
+  .footer h3 {
+    color: antiquewhite;
+    font-weight: 700;
+    padding-top: 3vh;
+  }
+
+  .footer a {
+    color: #aab2bd;
+    font-weight: 700;
+    padding: 1vw;
+  }
+
+  .footer a :hover {
+    text-decoration: underline;
+    color: azure;
+  }
+
+  .footer h4 {
+    color: antiquewhite;
+    font-weight: 700;
+    padding-top: 1vh;
+  }
+
+  .footer h5 {
+    color: #aab2bd;
+  }
+
+}
+
+/* AND */
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mypict {
+  background-image: url("/dist/img/mypict.jpg");
+  background-repeat: round;
+  width: 100%;
+  min-height: 140px;
+}
+
+
+address .uk-icon-button {
+  border: 1px solid white;
+  color: white;
+  background: none;
+}

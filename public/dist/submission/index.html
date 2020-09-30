@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="made.css">
+  <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+  <link rel="stylesheet" href="fontawesome/css/brands.css">
+  <!-- <link rel="stylesheet" href="fontawesome/css/solid.css"> -->
+</head>
+
+<body>
+  <header>
+    <h1>_MadeOfCode_</h1>
+  </header>
+  <nav id="navs" class="">
+    <div class="user">
+      <img src="myicon.png" alt="" width="50" height="50">
+      <a onclick="modal()" class="hello">
+        <h4>Hello, Made</h4>
+      </a>
+      <div id="modal-user" class="my-drop-icon t-hi">
+        <ul class="">
+          <li>
+            <h3>Made Welly Sinambela</h3>
+          </li>
+          <li><a>madewelly17@gmail.com</a></li>
+          <li><a>Logout</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navbar">
+      <ul class="">
+        <li><a id="home" onclick="home()">HOME</a> </li>
+        <li><a id="article" onclick="article()"> ARTICLE </a></li>
+        <li><a id="about" onclick="about()"> ABOUT </a></li>
+        <li><a id="contact" onclick="contact()">CONTACT </a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="cover">
+    <img id="img-1" src="home.png" alt="user_picture" width="70%" height="300">
+  </div>
+  <div class="title">
+    <h1 id="title" style="text-align: center;">Home</h1>
+  </div>
+  <main>
+    <div class="content">
+      <article id="a-1" style="margin-bottom: 30px;">
+        <h1>Sejarah Komputer</h1>
+        <small>Written by <a href=""> Made Welly</a> on 18 May 2020. Posted in <a href=""> Blog</a></small>
+        <img src="sejarah.jpg" alt="" width="80%">
+        <section>
+          <h1>Sejarah Komputer</h1>
+          <p>Pengertian komputer Komputer adalah alat yang dipakai untuk mengolah data menurut perintah yang telah
+            dirumuskan. Kata komputer semula dipergunakan untuk menggambarkan orang yang perkerjaannya melakukan
+            perhitungan aritmetika, dengan...
+          </p>
+        </section>
+        <button>VIEW RESUME</button>
+      </article>
+
+      <article id="a-2" style="margin-bottom: 30px;">
+        <h1>Algoritma Pemrograman</h1>
+        <small>Written by <a href=""> Made Welly</a> on 19 May 2020. Posted in <a href=""> Blog</a></small>
+        <img src="bahasa.jpg" alt="" width="80%">
+        <section>
+          <h1>Algoritma Pemrograman</h1>
+          <p>Hello Guys ! Siapa yang suka coding sampe lupa waktu? Siapa yang suka ngabisin kopi buat coding? Siapa yang
+            suka garuk-garuk kepala karena error code? Hahaha ... itulah tekat seorang programer. nge_coding Apakah
+            bahasa pemrograman... </p>
+        </section>
+        <button>VIEW RESUME</button>
+      </article>
+
+      <article id="a-about" style="margin-bottom: 30px;">
+        <h1>Made Welly Sinambela</h1>
+        <small>Written by <a href=""> Made Welly</a> on 20 May 2020. Posted in <a href=""> Blog</a></small>
+        <img src="mypict.jpg" alt="" width="80%">
+        <section>
+          <h1>About Me</h1>
+          <p>I work to create innovative solutions that inspire. and I will continue to strive to learn to be a
+            programmer
+            who is able to keep up with technological developments and continue to be principled like that</p>
+        </section>
+        <button>VIEW RESUME</button>
+      </article>
+
+      <article id="a-contact">
+        <form action="" method="">
+          <fieldset>
+            <legend>
+              <h2>CONTACT US</h2>
+            </legend>
+            <label for="">Your Email Address :</label><br>
+            <input type="text"><br>
+            <label for="">Subject :</label><br>
+            <input type="text"><br>
+            <label for="">Message :</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            <button type="submit">SEND MESSAGE</button>
+          </fieldset>
+        </form>
+      </article>
+    </div>
+    <aside>
+
+      <div class="search">
+        <input type="text" placeholder="ketik disini...">
+        <button>Cari</button>
+        <h3>Postingan Populer :</h3>
+
+      </div>
+      <div class="satu">
+        <img src="mypict.jpg" alt="" width="100%" height="120">
+        <a href="">My Biodata <br> Made Welly Sinambela</a>
+
+      </div>
+      <div class="satu">
+        <img src="sejarah.jpg" alt="" width="100%" height="120">
+        <a href="">Sejarah <br> Komputer</a>
+      </div>
+      <div class="dua">
+        <img src="bahasa.jpg" alt="" width="100%" height="120">
+        <a href=""> Algoritma <br> Pemograman</a>
+      </div>
+      <div class="sosial">
+        <img src="mypict.jpg" alt="" width="40%" height="100">
+        <h4 href="">Made Welly Sinambela</h4>
+        <small> Web Programmer <br> In Tangerang</small>
+        <p>Follow me</p>
+        <a class="rounded-circle" href=""><i class="fab fa-twitter"></i> </a>
+        <a class="rounded-circle" href=""><i class="fab fa-google-plus-g"></i> </a>
+        <a class="rounded-circle" href=""><i class="fab fa-instagram"></i> </a>
+        <span><i></i></span>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; MadeOfCode - All right reserved</p>
+    <p>Created by <a href=""> Made Welly Sinambela </a></p>
+  </footer>
+
+  <script src="made.js"></script>
+</body>
+
+</html>
