@@ -1,11 +1,11 @@
         <div class="header-area-me header-area">
             <div id="sticky-header" class="main-header-area">
-                <div class="container-fluid pt-2">
+                <div class="container-fluid pt-1">
                     <div class="row align-items-center">
                         <div class="col-xl-1 col-lg-3">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="{{asset("public/devlop/img/mylogo.png")}}" alt="logo" height="50">
+                                    <img src="{{asset("public/devlop/img/logo1.png")}}" alt="logo" height="50" width="153">
                                 </a>
                             </div>
                         </div>
@@ -41,8 +41,8 @@
                         </div>
                         <div class="col-xl-2 col-lg-3">
                             <div class="btn-login">
-                                <a class="" href="/login">
-                                    LOGIN
+                                <a class="" href="{{route("login")}}">
+                                    SIGN IN <i class="fas fa-sign-in-alt" style="font-size: 19px"></i>
                                 </a>
                             </div>
                         </div>

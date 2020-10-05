@@ -73,6 +73,13 @@
     height: 200;
 }
 
+/* //LOGIN */
+.signupform-img {
+    width: 124px;
+    height: 110px;
+    margin-top: -45px;
+    margin-bottom: 20px;
+}
 
 
 /* @media (max-width: 767px) { */
@@ -83,6 +90,16 @@
 }
 
 @media (max-width: 767px) {
+
+    /* login */
+    .signupform {
+        margin-top: 74px;
+    }
+
+    .footer {
+        margin-top: 131px;
+    }
+
 
     /* line 206, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
     .img-newsletter {
