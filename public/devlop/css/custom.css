@@ -73,6 +73,13 @@
     height: 200;
 }
 
+.text-art h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
 /* //LOGIN */
 .signupform-img {
     width: 124px;
@@ -83,8 +90,33 @@
 
 
 /* @media (max-width: 767px) { */
-@media (max-width: 1500px) and (min-width: 1200px) {
+@media (max-width: 1500px) and (min-width: 767px) {
     .login-nav {
+        display: none;
+    }
+
+    .container-blog {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 767px) {
+    .container-blog {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* @media (max-width: 767px) { */
+@media (max-width: 991px) {
+    .btn-login {
         display: none;
     }
 }
@@ -128,6 +160,12 @@
         display: none;
     }
 
-
+    .container-blog {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 }

@@ -556,7 +556,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
      text-align: center;
  }
 
- i.fa.fa-lock {
+ i.fa.fa-key {
      font-size: 16px;
      vertical-align: middle;
      color: #2196F3;
@@ -671,7 +671,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
      i.fa.fa-user,
      i.fa.fa-envelope,
-     i.fa.fa-lock {
+     i.fa.fa-key {
          margin-top: 10px;
      }
  }

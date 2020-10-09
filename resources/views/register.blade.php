@@ -16,7 +16,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link rel="stylesheet" href="{{asset("public/plugins/fontawesome/css/fontawesome.css")}}">
 <link rel="stylesheet" href="{{asset("public/plugins/fontawesome/css/brands.css")}}">
 <link rel="stylesheet" href="{{asset("public/plugins/fontawesome/css/solid.css")}}">
-<link href="my_login/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="{{asset("public/my_login/css/style.css")}}" type="text/css" media="all"/>
 <link rel="stylesheet" href="{{asset("public/devlop/css/custom.css")}}">
 
 <link href="//fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
@@ -59,9 +59,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		
 	    <div class="agile_info">
 			<div class="w3_info">
-				<h2>Login Your Account</h2>
+				<h2>Create Your Account</h2>
 				<p>and let's get you to the Made Coding!.</p>
-                <form method="POST" action="{{ route('login') }}">
+                <form method="POST" action="{{ route('register') }}">
 								@csrf
 								
 								{{-- <div class="form-group" id="login" style="border: 1px solid">
@@ -79,8 +79,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 																height:48px; padding:0px 10px;
 															}
 														</style>
-					<div class=" mb-0 form-control @error('email')is-invalid @enderror" style=" ">
+					<div class=" mb-3 form-control @error('email')is-invalid @enderror" style=" ">
 						<span><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <input id="email" type="text" placeholder="Your Awesome Name" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+      
+										</div>
+										@error('email')
+                            <span class="mt-0" role="">
+                                <code>{{ $message }}!</code>
+                            </span>
+                        @enderror
+
+					<div class=" mb-0 form-control @error('email')is-invalid @enderror" style=" ">
+						<span><i class="fa fa-envelope" aria-hidden="true"></i></span>
                         <input id="email" type="email" placeholder="Email Address" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
       
@@ -93,8 +105,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             
 
 			        <div class="form-control mt-3">
-					<span><i class="fa fa-lock" aria-hidden="true"></i></span>
+					<span><i class="fa fa-key" aria-hidden="true"></i></span>
                     <input id="password" type="password" placeholder="Password" @error('password') is-invalid @enderror name="password" required autocomplete="current-password">
+
+                    @error('password')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror					
+                </div>
+                
+			        <div class="form-control mt-3">
+					<span><i class="fa fa-key" aria-hidden="true"></i></span>
+                    <input id="password" type="password" placeholder="Repeat Password" @error('password') is-invalid @enderror name="password" required autocomplete="current-password">
 
                     @error('password')
                         <span class="invalid-feedback" role="alert">
@@ -104,7 +127,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </div>
 
 							<input type="checkbox" value="remember-me" /> <h4>Remember Me </h4>        
-              <button class="btn btn-primary btn-block" type="submit">Sign In <i class="fas fa-sign-in-alt" style="font-size: 19px"></i></button >                                  
+              <button class="btn btn-primary btn-block" type="submit">Register <i class="fas fa-sign-in-alt" style="font-size: 19px"></i></button >                                  
               @if (Route::has('password.request'))
                 <a class="btn btn-link" href="{{ route('password.request') }}">
                     {{ __('Forgot Your Password?') }}
@@ -116,7 +139,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			
 		</div>
-		<a href="{{url("register")}}" style="font-size: 19px; margin-top:20px">Create an account</a>
+		<a href="" style="font-size: 19px; margin-top:20px">Create an account</a>
 		<div class="footer" style="">
 		<p> All rights reserved | by <a href="{{url('/')}}"
 			target="_blank">madecoding.com</a></p>

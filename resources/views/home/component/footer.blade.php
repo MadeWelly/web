@@ -1,4 +1,4 @@
-<div class="footer_top">
+<div class="footer_top mt-5">
   <div class="container">
       <div class="row" style="justify-content: space-between;">
           <div class="col-xl-4 col-md-6 col-lg-4 ">
@@ -45,10 +45,8 @@
                   <ul class="links">
                       <li><a href="#">Donate</a></li>
                       <li><a href="#">Sponsor</a></li>
-                      <li><a href="#">Fundraise</a></li>
                       <li><a href="#">Volunteer</a></li>
                       <li><a href="#">Partner</a></li>
-                      <li><a href="#">Jobs</a></li>
                   </ul>
               </div>
           </div>

@@ -14,9 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home.layout');
+    return view('home.index');
 });
 
 Route::get('/login', function () {
     return view('login');
 })->name('login');
+
+Route::get('register', function () {
+    return view('register');
+});
+Route::post('register', function () {
+    return "Maaf program register kami sedang mempersiapkannya";
+})->name("register");
+
+Route::get('blog', function () {
+    return view('home/blog/our_blog');
+});
+Route::get('blog/read', function () {
+    return view('home/blog/read_blog');
+});

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home | Made Of Code</title>
+    <title>@yield('title') | Made Of Code</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -32,49 +32,14 @@
 
 <body>
   <header>
-    @include('home.header')
+    @include('home.component.navbar')
   </header>
 
-  {{-- slide area --}}
-  <div class="slider_area">
-    @include('home.poster')
-  </div>
-
-  {{-- modul populer area --}}
-  <div class="reson_area section_padding">
-    @include('home.modul_area')
-  </div>
-
-  {{-- area 2 --}}
-  <div class="popular_causes_area section_padding" style="padding-top: 40px;padding-bottom: 24px;
-  background-color: aliceblue; margin-bottom:50px;">
-    @include('home.area_2')
-  </div>
-
-  {{-- area 3L --}}
-  <div class="reson_area pt-5 mt-5">
-    @include('home.area_3')
-  </div>
-
-  {{-- area 4 --}}
-  <div class="reson_area pt-5 mt-5">
-    @include('home.area_4')
-  </div>
-
-      <!-- our_volunteer_area_start  -->
-  <div class="" style="background-color: #f2f2f2; margin-top:49px;padding-top: 64px;
-  padding-bottom: 120px;">
-  @include('home.subcriber')
-  </div>
-
-      <!-- news__area_start  -->
-  <div class="section_padding" style="background-color: #2c3e50">
-    @include('home.area_terbaru')
-  </div>
+  @yield('content')
 
       <!-- footer_start  -->
   <footer class="footer">
-    @include('home.footer')
+    @include('home.component.footer')
   </footer>
 
   <script src="{{asset("public/devlop/js/vendor/modernizr-3.5.0.min.js")}}"></script>

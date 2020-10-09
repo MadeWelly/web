@@ -8,7 +8,7 @@
                 <span>Get Started Today.</span>
                 <h3> Bangun Karirmu Sebagai Developer Profesional</h3>
                 <p>Jadilah tuan rumah di negeri sendiri dengan belajar langsung dari para inovator dan developer expert</p>
-                <a href="About.html" class="boxed-btn3">SELENGKAPNYA
+                <a href="{{url('register')}}" class="boxed-btn3">JOIN NOW
                 </a>
             </div>
         </div>

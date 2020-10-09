@@ -68,6 +68,7 @@ body {
     font-family: "Yeseva One", cursive;
     font-weight: normal;
     font-style: normal;
+    background-color: #ecf0f1;
 }
 
 /* line 13, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_theme-default.scss */
@@ -440,7 +441,7 @@ h3 {
 /* line 298, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_theme-default.scss */
 .section_padding {
     padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 @media (max-width: 767px) {
@@ -449,7 +450,7 @@ h3 {
     .section_padding {
         /* padding-top: 60px; */
         padding-top: 277px;
-        padding-bottom: 60px;
+        /* padding-bottom: 60px; */
     }
 }
 
@@ -1153,8 +1154,8 @@ h3 {
 
     /* line 16, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
     .header-area .main-header-area {
-        right: 60px;
-        left: 60px;
+        /* right: 60px;
+        left: 60px; */
     }
 }
 
