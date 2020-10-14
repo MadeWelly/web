@@ -36,7 +36,7 @@
   </div>
 
   <!-- our_volunteer_area_start  -->
-  <div class="" style="background-color: #f2f2f2; margin-top:;padding-top: 64px;
+  <div class="" style="padding-top: 64px;
   padding-bottom: 120px;">
   @include('home.part.subcriber')
   </div>
