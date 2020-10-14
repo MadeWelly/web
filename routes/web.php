@@ -29,8 +29,19 @@ Route::post('register', function () {
 })->name("register");
 
 Route::get('blog', function () {
-    return view('home/blog/our_blog');
+    return view('blog/index');
 });
 Route::get('blog/read', function () {
-    return view('home/blog/read_blog');
+    return view('blog/read_blog');
+});
+
+// Courses
+Route::get('coding/laravel', function () {
+    return view('courses.laravel.index');
+});
+Route::get('coding/javascript', function () {
+    return view('courses.javascript.index');
+});
+Route::get('coding/git', function () {
+    return view('courses.git.index');
 });

@@ -2,7 +2,7 @@
   <div class="row justify-content-center">
       <div class="col-lg-6">
           <div class="section_title text-center mb-55">
-              <h3><span style="color: white">Modul Terbaru</span></h3>
+              <h3><span style="color: white">Artikel Terbaru</span></h3>
           </div>
       </div>
   </div>
@@ -13,9 +13,9 @@
                             <a href="">                   
                             <div class="causes_content" style="text-align: center">
                                 <div class="thumb" style="font-size: 6rem;">
-                                    <img class="img-modul-terbaru" src="{{asset("public/devlop/img/indept-laravel.jpg")}}" alt="">                            
+                                    <img class="img-modul-terbaru" src="{{asset("public/devlop/img/history-js.jpg")}}" alt="">                            
                                 </div>
-                                <h3 class="text-white pt-2">In Depth Laravel</h3></a>
+                                <h3 class="text-white pt-2">Sejarah Perkembangan Javascript</h3></a>
                                 {{-- <p>The passage is attributed to an
                                     unknown typesetter in the century
                                     who is thought</p>
@@ -26,9 +26,9 @@
                             <div class="causes_content" style="text-align: center">
                                 <a href="">
                                 <div class="thumb" style="font-size: 6rem;">
-                                    <img class="img-modul-terbaru" src="{{asset("public/devlop/img/middleware.png")}}" alt="" height="200">                            
+                                    <img class="img-modul-terbaru" src="{{asset("public/devlop/img/laravel-vs-codeigniter.png")}}" alt="" height="200">                            
                                 </div>
-                                <h3 class="text-white pt-2">Middleware Laraver</h3></a>
+                                <h3 class="text-white pt-2">Laraver Vs Codeigniter</h3></a>
                                 {{-- <p>The passage is attributed to an
                                     unknown typesetter in the century
                                     who is thought</p>
@@ -41,7 +41,7 @@
                                     <div class="thumb" style="font-size: 6rem;">
                                         <img class="img-modul-terbaru" src="{{asset("public/devlop/img/git-github.png")}}" alt="">                                
                                     </div>
-                                    <h3 class="text-white pt-2">Git-up dengan Git dan Github</h3>
+                                    <h3 class="text-white pt-2">Perbedaan Git dan Github</h3>
                                 </a>
                                 {{-- <p>The passage is attributed to an
                                     unknown typesetter in the century
@@ -55,7 +55,7 @@
                 </div>
                 
             </div>
-            <h3 class="text-center text-white">-- Slide Aside --</h3>
+            <h3 class="text-center text-white mt-4">-- Slide Aside --</h3>
   {{--<div class="row">
       <div class="col-lg-12">
           <div class="news_active owl-carousel">

@@ -1,10 +1,10 @@
         <div class="header-area-me header-area">
-            <div id="sticky-header" class="main-header-area" style="background-color: #416fc0;">
+            <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid pt-1">
                     <div class="row align-items-center">
                         <div class="col-xl-1 col-lg-2">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="{{url('/')}}">
                                     <img src="{{asset("public/devlop/img/logo1.png")}}" alt="logo" height="50" width="153">
                                 </a>
                             </div>
@@ -15,24 +15,25 @@
                                     <ul id="navigation">
                                         <li><a href="{{url("/")}}">BERANDA</a></li>
                                         <li><a href="{{url("blog")}}">BLOG</a></li>
-                                        <li><a href="#">TUTORIAL<i class="ti-angle-down"></i></a>
+                                        {{-- <li><a href="#">CODING<i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="#">HTML</a></li>
-                                                <li><a href="#">CSS</a></li>
-                                                <li><a href="#">JAVASCRIPT</a></li>
-                                                <li><a href="#">CODEIGNITER</a></li>
-                                                <li><a href="#">LARAVEL</a></li>
-                                                <li><a href="#">GIT</a></li>
+                                            <li><a href="{{url('coding/html')}}">HTML</a></li>
+                                                <li><a href="{{url('coding/css')}}">CSS</a></li>
+                                            <li><a href="{{url('coding/javascript')}}">JAVASCRIPT</a></li>
+                                            <li><a href="{{url('coding/codeigniter')}}">CODEIGNITER</a></li>
+                                                <li><a href="{{url('coding/laravel')}}">LARAVEL</a></li>
+                                            <li><a href="{{url('coding/git')}}">GIT</a></li>
+                                            </ul>
+                                        </li> --}}
+                                        <li><a href="{{url('coding/laravel')}}"> LARAVEL</a></li>
+                                            <li><a href="{{url('coding/javascript')}}">JAVASCRIPT</a></li>
+                                            <li><a href="{{url('coding/git')}}">GIT</a></li>
+                                        <li><a href="#">MORE <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="#">TENTANG KAMI</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="About.html">TENTANG KAMI</a></li>
-                                        {{-- <li><a href="#">FASILITAS <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="elements.html">elements</a></li>
-                                                <li><a href="Cause.html">Cause</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">LAYANAN</a></li> --}}
+                                        {{-- <li><a href="contact.html">LAYANAN</a></li> --}}
                                         <span class="login-nav"><a href="{{url("/login")}}">LOGIN</a></span>
                                     </ul>
                                 </nav>

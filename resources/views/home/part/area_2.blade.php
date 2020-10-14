@@ -46,8 +46,9 @@
                                 <a class="read_more" href="cause_details.html">Read More</a> --}}
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>
+            <h3 class="text-center">-- Slide Aside --</h3>
+
         </div>

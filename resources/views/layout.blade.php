@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>@yield('title') | Made Of Code</title>
+    <title>@yield('title') | Made Coding</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -32,14 +32,14 @@
 
 <body>
   <header>
-    @include('home.component.navbar')
+    @include('component.navbar')
   </header>
 
   @yield('content')
 
       <!-- footer_start  -->
   <footer class="footer">
-    @include('home.component.footer')
+    @include('component.footer')
   </footer>
 
   <script src="{{asset("public/devlop/js/vendor/modernizr-3.5.0.min.js")}}"></script>
