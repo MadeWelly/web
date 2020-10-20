@@ -34,7 +34,7 @@
                   </div>
                   <div class="text-art">
                   <p>APA ITU GIT, KENAPA PENTING</p>
-                  <a href="{{url("blog/read")}}" class="read_more">Read More</a>
+                  <a href="#" class="read_more">Read More</a>
               </div>
               </div>
           </div>

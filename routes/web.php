@@ -31,9 +31,7 @@ Route::post('register', function () {
 Route::get('blog', function () {
     return view('blog/index');
 });
-Route::get('blog/read', function () {
-    return view('blog/read_blog');
-});
+
 
 // Courses
 Route::get('coding/laravel', function () {
@@ -44,4 +42,15 @@ Route::get('coding/javascript', function () {
 });
 Route::get('coding/git', function () {
     return view('courses.git.index');
+});
+
+//read more
+Route::get('laravel/konsep-dasar-laravel', function () {
+    return view('courses.laravel.modul.konsep_dasar_laravel');
+});
+Route::get('javascript/fungsi-input-dan-output', function () {
+    return view('courses.javascript.modul.fungsi_input_output');
+});
+Route::get('git/repositori-git-dalam-proyek', function () {
+    return view('courses.git.modul.repositori_git_dalam_proyek');
 });

@@ -34,7 +34,7 @@
                   </div>
                   <div class="text-art">
                   <p>Sejarah Perkembangan Javascript </p>
-                  <a href="{{url("blog/read")}}" class="read_more">Read More</a>
+                  <a href="" class="read_more">Read More</a>
               </div>
               </div>
           </div>

@@ -23,8 +23,8 @@
                                 <img src="{{asset("public/devlop/img/konsep-laravel.jpg")}}" alt="" width= "100%" height= "200">
                             </div>
                             <div class="text-art">
-                            <p>KONSEP DASAR LARAVEL</p>
-                            <a href="{{url('blog/read')}}" class="read_more">Read More</a>
+                            <p>PENARAPAN MVC LARAVEL</p>
+                            <a href="{{url('laravel/konsep-dasar-laravel')}}" class="read_more">Read More</a>
                         </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                             </div>
                             <div class="text-art">
                                 <p>FUNGSI INPUT DAN OUTPUT</p>
-                                <a href="#" class="read_more">Read More</a>
+                            <a href="#" class="read_more">Read More</a>
                             </div>
                         </div>
                     </div>
